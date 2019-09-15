@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+button {
+    transition: .5s;
+
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 7px;
+    border-radius: 5px;
+
+    border: none;
+    background-color: #311231b9;
+    color: whitesmoke;
+}
+
+button:hover {
+    transition: .5s;
+    cursor: pointer;
+    
+    background-color: whitesmoke;
+    color: #311231b9;
+}
+
+.flex {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.animation {
+    height: 100vh;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.demo {
+    height: 50%;
+    top: 50%;
+    left: 0%;
+}
+
+.secondExample {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    padding: 5%;
+    border-radius: 20px;
+}
+
+[class*='reveal'] {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.reveal-2 {
+    transition-delay: .1;
+}
+
+.reveal-3 {
+    transition-delay: .2;
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
