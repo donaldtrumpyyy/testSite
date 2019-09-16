@@ -14,19 +14,18 @@ function firstExample() {
             {x: window.innerWidth, y: -250}
             */
 
-
-            {x: 00, y: 100},
-            {x: 00, y: 150},
-            {x: 00, y: 170},
-            {x: 00, y: 190},
-            {x: 00, y: 210},
-            {x: 00, y: 230},
-            {x: 00, y: 250},
-            {x: 00, y: 270},
-            {x: 00, y: 290},
-            {x: 00, y: 310},
-            {x: 00, y: 330},
-            {x: 00, y: window.innerHeight}
+            {x: 00, y: -50},
+            {x: 00, y: -150},
+            {x: 00, y: -170},
+            {x: 00, y: -190},
+            {x: 00, y: -210},
+            {x: 00, y: -230},
+            {x: 00, y: -250},
+            {x: 00, y: -270},
+            {x: 00, y: -290},
+            {x: 00, y: -310},
+            {x: 00, y: -330},
+            {x: 00, y: -window.innerHeight}
         ]
     }
     
@@ -43,7 +42,7 @@ function firstExample() {
     
     const scene = new ScrollMagic.Scene({
         triggerElement: '.animation',
-        duration: 2*1000,
+        duration: 0.75*1000,
         triggerHook: 0
     }).setTween(tween)
       .setPin('.animation')
