@@ -76,9 +76,15 @@ button:hover {
     overflow: hidden;
 }
 
+[class*='demo'] {
+
+}
+
 .demo {
     height: 50%;
-    margin-top: 25%;
+}
+
+.demo-text {
     text-align: center;
 }
 

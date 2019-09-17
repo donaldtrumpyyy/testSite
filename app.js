@@ -32,7 +32,7 @@ function firstExample() {
     const tween = new TimelineLite()
     
     tween.add(
-        TweenLite.to('.demo', 1, {
+        TweenLite.to("[class*='demo']", 1, {
             bezier: flightPath,
             ease: Power1.easeInOut
         })
