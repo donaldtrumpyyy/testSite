@@ -76,22 +76,29 @@ button:hover {
     overflow: hidden;
 }
 
-[class*='demo'] {
-
-}
-
 .demo {
     height: 50%;
+}
+
+.demo:hover {
+    cursor: pointer;
 }
 
 .demo-text {
     text-align: center;
 }
 
-.secondExample {
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-    padding: 5%;
+.example {
     border-radius: 20px;
+    padding: 5%;
+}
+
+.exampleStocks {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.exampleTrip {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
 
 [class*='reveal'] {
